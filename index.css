@@ -1,0 +1,58 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+.container{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        width: 450px;
+}
+.box1{
+    background-color: violet;
+    border-radius: 50px 50px 0 0;
+    height: 450px;
+    width: 350px;
+
+}
+.box2{
+    background-color: silver;
+    border-radius: 0 0 25%;
+    height: 1000px;
+    width: 350px;
+    
+    
+}
+.img{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border: 3px solid white;
+    top: 30%;
+    left: 50%;
+
+
+}
+.box{
+    
+    padding-left: 100px;
+}
+.teju{
+    margin-top: 17%;
+    padding-left: 20%;
+}
+.medal{
+      padding-left: 80px;
+      
+    
+}
